@@ -1,0 +1,244 @@
+{
+  "fecha_extraccion": "2026-11-11",
+  "reglas": "Mensajes canónicos de session_message, tipo assistant; se cuenta cada invocación una vez. render --help excluido. completed de herramienta no prueba que el comando o el video pasara QA. Los errores explícitos no son inventario exhaustivo de fallos de proceso. cost es telemetría, no factura. Tiempo de pared no es tiempo humano.",
+  "sesiones": [
+    {
+      "unidad": "sesión; no necesariamente un video",
+      "etiqueta": "intro_m3",
+      "session_id": "ses_eaf084409ffeHJjlRRmBnYDkmB",
+      "mensajes_usuario": 2,
+      "mensajes_asistente": 147,
+      "modelos": {
+        "opencode-go/mimo-v2.6-flash": 147
+      },
+      "herramientas": {
+        "skill": 2,
+        "read": 48,
+        "shell": 53,
+        "write": 11,
+        "edit": 53,
+        "grep": 4
+      },
+      "checks_seq": [
+        423,
+        539,
+        586,
+        642,
+        671,
+        758,
+        994,
+        1090,
+        1315,
+        1493
+      ],
+      "render_invocaciones_seq": [
+        787,
+        1344
+      ],
+      "errores_herramienta": [
+        {
+          "seq": 1288,
+          "tool": "edit",
+          "tipo": "error explícito de herramienta"
+        },
+        {
+          "seq": 1355,
+          "tool": "edit",
+          "tipo": "error explícito de herramienta"
+        }
+      ],
+      "tokens_campos_separados": {
+        "input": 681914,
+        "output": 68512,
+        "reasoning": 51520,
+        "cache_read": 24159360,
+        "cache_write": 0
+      },
+      "cost_campo_opencode": 0.19672312800000002,
+      "duracion_pared_segundos": 4358.026,
+      "tiempo_humano_minutos": null,
+      "costo_total_facturado": null,
+      "primera_entrega_segundos": 3317.062,
+      "revision_hasta_segunda_entrega_segundos": 1019.079,
+      "encargo_original_sha256": "d7241cdee97ec71b48c86ade982233fa42ccc7d85e444360f330bd4ac85854a6"
+    },
+    {
+      "unidad": "sesión; no necesariamente un video",
+      "etiqueta": "video_sesion_m4",
+      "session_id": "ses_eaefaa565ffeM0Dcgon5dmRa9k",
+      "mensajes_usuario": 3,
+      "mensajes_asistente": 157,
+      "modelos": {
+        "opencode-go/mimo-v2.6-flash": 157
+      },
+      "herramientas": {
+        "skill": 1,
+        "read": 46,
+        "glob": 7,
+        "shell": 83,
+        "grep": 8,
+        "write": 22,
+        "edit": 20
+      },
+      "checks_seq": [
+        523,
+        551,
+        886,
+        1230
+      ],
+      "render_invocaciones_seq": [
+        935,
+        1018,
+        1286,
+        1335
+      ],
+      "errores_herramienta": [
+        {
+          "seq": 1106,
+          "tool": "edit",
+          "tipo": "error explícito de herramienta"
+        }
+      ],
+      "tokens_campos_separados": {
+        "input": 2635397,
+        "output": 81140,
+        "reasoning": 51469,
+        "cache_read": 30641600,
+        "cache_write": 0
+      },
+      "cost_campo_opencode": 0.49188258000000007,
+      "duracion_pared_segundos": 6019.308,
+      "tiempo_humano_minutos": null,
+      "costo_total_facturado": null
+    },
+    {
+      "unidad": "sesión; no necesariamente un video",
+      "etiqueta": "video_sesion_entregas",
+      "session_id": "ses_eae37137bffeFbaIQykmqyfhSa",
+      "mensajes_usuario": 1,
+      "mensajes_asistente": 62,
+      "modelos": {
+        "opencode-go/mimo-v2.6-flash": 62
+      },
+      "herramientas": {
+        "skill": 2,
+        "read": 33,
+        "shell": 36,
+        "write": 11,
+        "edit": 8
+      },
+      "checks_seq": [
+        432,
+        469,
+        610
+      ],
+      "render_invocaciones_seq": [
+        621
+      ],
+      "errores_herramienta": [
+        {
+          "seq": 280,
+          "tool": "write",
+          "tipo": "error explícito de herramienta"
+        }
+      ],
+      "tokens_campos_separados": {
+        "input": 616617,
+        "output": 39906,
+        "reasoning": 28163,
+        "cache_read": 7199040,
+        "cache_write": 0
+      },
+      "cost_campo_opencode": 0.125543012,
+      "duracion_pared_segundos": 4427.336,
+      "tiempo_humano_minutos": null,
+      "costo_total_facturado": null
+    },
+    {
+      "unidad": "sesión; no necesariamente un video",
+      "etiqueta": "video_m2",
+      "session_id": "ses_eb3038cebffedtibT66O1J6iJ2",
+      "mensajes_usuario": 1,
+      "mensajes_asistente": 84,
+      "modelos": {
+        "opencode/mimo-v2.6-flash-free": 84
+      },
+      "herramientas": {
+        "skill": 7,
+        "read": 26,
+        "shell": 48,
+        "glob": 2,
+        "write": 9,
+        "edit": 12,
+        "grep": 5
+      },
+      "checks_seq": [],
+      "render_invocaciones_seq": [],
+      "errores_herramienta": [
+        {
+          "seq": 390,
+          "tool": "edit",
+          "tipo": "error explícito de herramienta"
+        }
+      ],
+      "tokens_campos_separados": {
+        "input": 309603,
+        "output": 30730,
+        "reasoning": 59327,
+        "cache_read": 5086976,
+        "cache_write": 0
+      },
+      "cost_campo_opencode": 0,
+      "duracion_pared_segundos": 2965.09,
+      "tiempo_humano_minutos": null,
+      "costo_total_facturado": null
+    },
+    {
+      "unidad": "sesión; no necesariamente un video",
+      "etiqueta": "epilogo",
+      "session_id": "ses_ead57ff34ffe2iuDcwuJKqt16H",
+      "mensajes_usuario": 2,
+      "mensajes_asistente": 160,
+      "modelos": {
+        "opencode/mimo-v2.6-flash-free": 160
+      },
+      "herramientas": {
+        "read": 70,
+        "shell": 84,
+        "skill": 6,
+        "grep": 35,
+        "write": 19,
+        "edit": 40,
+        "glob": 5
+      },
+      "checks_seq": [],
+      "render_invocaciones_seq": [
+        1536,
+        1717
+      ],
+      "errores_herramienta": [
+        {
+          "seq": 1167,
+          "tool": "edit",
+          "tipo": "error explícito de herramienta"
+        },
+        {
+          "seq": 1167,
+          "tool": "edit",
+          "tipo": "error explícito de herramienta"
+        }
+      ],
+      "tokens_campos_separados": {
+        "input": 833018,
+        "output": 90609,
+        "reasoning": 163954,
+        "cache_read": 18016384,
+        "cache_write": 0
+      },
+      "cost_campo_opencode": 0,
+      "duracion_pared_segundos": 6590.632,
+      "tiempo_humano_minutos": null,
+      "costo_total_facturado": null
+    }
+  ]
+}

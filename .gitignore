@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.db
+*.db-*
+*.env
+.env*
+auth.json
+*.wav
+*.mp3
+*.mp4
+evaluaciones-completadas/
+datos-personales/
