@@ -1,0 +1,17 @@
+{
+  "referencia": "mision03.mp4",
+  "re_ejecucion": "replica.mp4",
+  "duracion_ref_s": 53.3,
+  "duracion_new_s": 53.3,
+  "diferencia_ms": 0.0,
+  "audio_pcm_sha256_ref": "61af247b2d6507d198e5ee50af6cd6c2ae1437b8b1767eeeb89e793c28fdc284",
+  "audio_pcm_sha256_new": "61af247b2d6507d198e5ee50af6cd6c2ae1437b8b1767eeeb89e793c28fdc284",
+  "audio_identico": true,
+  "ssim_medio": 0.99999,
+  "ssim_detalle": "[Parsed_ssim_0 @ 00000180a0799a80] SSIM Y:0.999994 (52.186886) U:0.999985 (48.201985) V:0.999981 (47.250125) All:0.999990 (50.136769)",
+  "criterios": {
+    "duracion_tol_40ms": true,
+    "audio_identico": true,
+    "ssim_min_0_99": true
+  }
+}

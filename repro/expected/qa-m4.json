@@ -1,0 +1,51 @@
+{
+  "video": "mision04.mp4",
+  "sha256": "12a7565a044a65de0f3e2fede75998d1fcee6a3ba207b150703544fda66b1fad",
+  "sha256_anterior": "4a128308ce40d4bde13119cedd5c77299989d32d133b5c20919e18a1f90f7ab4",
+  "fecha_verificacion": "2026-11-11",
+  "fotogramas": [
+    {
+      "segundo": "44.000",
+      "pose": "transitorio",
+      "raw_rgb24_sha256": "8fe806ae3d85e967b45061952caa2a227085252b711e2989a78844a4bcf65397"
+    },
+    {
+      "segundo": "48.200",
+      "pose": "transitorio",
+      "raw_rgb24_sha256": "052168aa70dbdef94b7ac68be1d2ce5fd5e732dce1e0f85b3dd572f50c1e70cb"
+    },
+    {
+      "segundo": "50.030",
+      "pose": "reposo",
+      "raw_rgb24_sha256": "2c7a95f252c334698c1445e834903070cf8db10087840113729ffc3730617f44"
+    },
+    {
+      "segundo": "52.587",
+      "pose": "reposo",
+      "raw_rgb24_sha256": "5c5c162c19633a991135b9f5edc23e9ef223af6e40ad3cb7a92b9a2a0c119fe4"
+    }
+  ],
+  "criterios": [
+    {
+      "nombre": "vertice_aguja_vs_centro_px",
+      "valor": 1.21,
+      "detalle": "Máximo de las cuatro muestras: 1,10 px en 44,000 y 48,200 s; 1,21 px en 50,030 y 52,587 s."
+    },
+    {
+      "nombre": "punta_termina_sobre_graduacion_50",
+      "valor": true,
+      "detalle": "En las cuatro muestras la punta se detiene sobre la graduación, no fuera de la escala."
+    },
+    {
+      "nombre": "etiquetas_ocluidas",
+      "valor": [],
+      "detalle": "Ninguna de las cuatro muestras presenta rótulos ocluidos por la barra."
+    },
+    {
+      "nombre": "escala_dentro_del_encuadre",
+      "valor": true,
+      "detalle": "El arco graduado permanece dentro del área segura en las cuatro muestras."
+    }
+  ],
+  "defecto_residual": "Oclusión transitoria del rótulo 60 durante el giro, documentada en el informe de producción y no corregida en esta adopción."
+}

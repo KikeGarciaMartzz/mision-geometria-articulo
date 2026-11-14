@@ -1,0 +1,21 @@
+{
+  "video": "mision03.mp4",
+  "sha256": "161be9d332b3735da359cfb05b5b4b8f19c643cc1292a3640ff9915f7b9793c9",
+  "reglas": {
+    "lead": 0.55,
+    "gap": 0.55,
+    "tail": 0.45,
+    "nota": "0,55 s antes del primer parlamento; 0,55 s entre parlamentos; después del último, 0,55 s de pausa más 0,45 s de cola."
+  },
+  "duracion_autorada": 53.28775,
+  "duracion_contenedor": 53.3,
+  "line_starts": [
+    0.55,
+    7.58,
+    14.922458,
+    22.752458,
+    31.917166,
+    39.433958,
+    46.02075
+  ]
+}

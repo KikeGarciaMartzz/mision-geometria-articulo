@@ -1,0 +1,66 @@
+{
+  "fecha_registro": "2026-11-12",
+  "nota": "Inventario de la maquina donde se ejecutaron las verificaciones y la re-ejecucion del render. No es el inventario del entorno original de octubre de 2026: ese entorno no registro GPU, CUDA ni versiones de dependencias.",
+  "sistema": {
+    "so": "Windows 11 Pro",
+    "version": "10.0.26200",
+    "arquitectura": "x86_64",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-13620H",
+    "nucleos_fisicos": 10,
+    "hilos_logicos": 16,
+    "ram_bytes": 16884146176,
+    "ram_gib": 15.7
+  },
+  "gpu": {
+    "modelo": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "memoria_mib": 8151,
+    "compute_capability": "12.0",
+    "driver": "591.86",
+    "cuda_driver": "13.1"
+  },
+  "herramientas": {
+    "python": "3.14.5",
+    "node": "24.16.0",
+    "npm": "11.13.0",
+    "ffmpeg": "8.1.1-essentials_build-www.gyan.dev",
+    "ffmpeg_ruta": "C:\\Users\\kikeFelizz\\Downloads\\ffmpeg\\bin",
+    "chrome": "157.0.8103.52",
+    "gsap": "3.14.2",
+    "hyperframes_cli": "0.8.169",
+    "hyperframes_cache": "%LOCALAPPDATA%\\npm-cache\\_npx\\e2bf0e53e5928641"
+  },
+  "paquetes_python": {
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "numpy": "2.5.4",
+    "soundfile": "0.14.0",
+    "huggingface_hub": "2.2.0"
+  },
+  "paquetes_faltantes": {
+    "qwen_tts": "No instalado en este entorno. La sintesis de voz no puede re-ejecutarse aqui.",
+    "faster_whisper": "No instalado. La transcripcion de verificacion no puede re-ejecutarse aqui."
+  },
+  "proyecto_m3": {
+    "ruta_original": "C:\\Users\\kikeFelizz\\Proyectos\\mision-geometria-curso\\video-mision-3",
+    "duracion_autorada": 53.28775,
+    "ancho": 1920,
+    "alto": 1080,
+    "fps": 30,
+    "semilla_sintesis": 47101,
+    "sha256_render_integrado": "161be9d332b3735da359cfb05b5b4b8f19c643cc1292a3640ff9915f7b9793c9",
+    "hashes_insumos": {
+      "index.html": "6e28d04a50843a62f81db0821d47d42f82d54852adddac8183dc38cfcf5ad266",
+      "compositions/captions.html": "6d0a012a547026f6d061999409fe6998ffab30257f20076428170be50a33b214",
+      "tools/sync.json": "0c39a8bd36201f9f56408a1fb87de4a71aa24c9d4e8da413eefa41043269bf4a",
+      "assets/voice/duraciones.json": "4a4a5bb9d255a2fa419779d262700f69a9770f86c784a58cd9ed8b035517ef99",
+      "assets/vendor/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "metadata.json": "63c58eb982fb9c3c46c1e94c92047b84582c87be7750dc93c82103b69b7d925f"
+    }
+  },
+  "render_integrado": {
+    "encoder_video": "Lavc62.28.101 libx264",
+    "muxer": "Lavf62.12.101",
+    "hyperframes_version": "0.8.169",
+    "hyperframes_renderer": "hyperframes"
+  }
+}
